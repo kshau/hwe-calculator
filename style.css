@@ -1,0 +1,30 @@
+body {
+    zoom: 2.5;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+input, span {
+    margin: 5px;
+}
+
+.inputSubmit {
+    width: fit-content;
+}
+
+.pqIn {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 13px;
+}
